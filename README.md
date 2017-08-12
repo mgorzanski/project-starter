@@ -1,1 +1,1 @@
-"# project-starter" 
+My own small PHP framework to satisfy my requirments when I'm creating a basic app.
