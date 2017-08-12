@@ -1,0 +1,14 @@
+{
+	"name": "project-starter",
+	"description": "",
+	"keywords": [],
+	"license": "",
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	},
+	"require": {
+		"twig/twig": "^2.0"
+	}
+}
