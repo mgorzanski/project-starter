@@ -4,7 +4,7 @@ namespace App;
 use App\Config;
 use App\Helpers\Templates;
 
-define("DEFAULT_MOD", (new Config)->app('default_module'));
+define("DEFAULT_MOD", Config::app('default_module'));
 
 class Startup {
 	public function __construct() {
