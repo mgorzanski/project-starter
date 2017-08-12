@@ -45,11 +45,10 @@ class Templates {
 	}
 
 	public function baseDir() {
-		$config = new Config;
-		if($config->app('is_in_root')) {
-			return "/".$config->app('root')."/public";
+		if(Config::app('is_in_root')) {
+			return "/".Config::app('root')."/public";
 		} else {
-			return "/".$config->app('root');
+			return "/".Config::app('root');
 		}
 		
 	}
